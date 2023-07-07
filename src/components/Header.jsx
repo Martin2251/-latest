@@ -1,16 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Nav from './Nav'
+import Navbar from './Navbar'
 import styled from "styled-components"
 
 const Header = () => {
   return (
 <header>
   <NavLink to="/">
-    <img src="./images/logo.png" alt="logo"  />
+    <img src="./images/logo.png" alt="logo" className='logo' />
 
   </NavLink>
-  <Nav  />
+  <Navbar  />
 </header>
   )
 }
@@ -28,6 +28,6 @@ const MainHeader = styled.header`
     max-width: 30%;
   }
 `;
-`
+
 
 export default Header
