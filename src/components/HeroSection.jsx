@@ -11,14 +11,15 @@ const HeroSection = () => {
         <p className='hero-top-data'>This is me</p>
         <h1 className='hero-heading'>Martin</h1>
         <p className='hero-para'>Hello i like to talk alot and alot of text</p>
-    </div>
-    <Button className="btn hireme-btn">
+        <Button className="btn hireme-btn">
         <NavLink to="/contact">hire me</NavLink>
 
     </Button>
+    </div>
+  
     <div className="section-hero-image">
         <picture>
-            <img src="./images/hero.svg" alt=""   />
+            <img src="./images/hero.svg" alt="" className='hero-img'   />
         </picture>
     </div>
 </div>
